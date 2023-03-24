@@ -5,4 +5,4 @@ steps:
       - sleep 60
     agents:
       queue: "test"
-    parallelism: 5
+    parallelism: 10
