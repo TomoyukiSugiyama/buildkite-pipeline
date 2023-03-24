@@ -1,0 +1,8 @@
+steps:
+  - label: "test scale1"
+    command:
+      - echo "test"
+      - sleep 60
+    agents:
+      queue: "test"
+    parallelism: 5
